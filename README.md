@@ -13,7 +13,7 @@ A template for sketching using the [p5.js](http://p5js.org/) library, including 
   This file. Displayed in Github when you browse this repo.
 
 - `p5/p5.js`  
-  The main p5 javascript library.
+  The main p5 javascript library. 
 
 - `p5/p5.dom.js`  
   Optional p5 library for manipulating html elements.
