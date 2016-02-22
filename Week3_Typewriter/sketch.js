@@ -2,7 +2,7 @@
 var testImage;
 
 function preload() {
-	testImage = loadImage("assets/Typewriter1.jpg");
+	testImage = loadImage("./assets/Typewriter1.jpg");
 	noLoop();
 }
 
