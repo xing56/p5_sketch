@@ -11,7 +11,11 @@ var bug10;
 
 function setup() {
 	createCanvas(600, 500);
-	// Create object
+	// object
+	a = a + 1;
+	for (var a = 0; a < 20; a++) {
+		bug1 = new Jitter();
+	}
 	bug1 = new Jitter();
 	bug2 = new Jitter();
 	bug3 = new Jitter();
@@ -48,7 +52,7 @@ function draw() {
 	bug10.display();
 }
 
-// Jitter class
+// Jitter
 function Jitter() {
 	this.x = random(width);
 	this.y = random(height);
